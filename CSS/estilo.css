@@ -30,8 +30,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: end;
-    
+    justify-content: end; 
 }
 
 li {
@@ -48,6 +47,12 @@ li a {
 
 .active {
     background-color: #333;
+}
+
+/*Hace un efecto de cambio de color cuando se pasa el cursor por encima de la opcion*/
+#row li a:hover:not(.active) {
+    text-decoration: #ffa5d1;
+    background-color: #6b6b6b;
 }
 
 /*#navigation {
@@ -142,8 +147,6 @@ input {
     margin-left: 5%;
     width: 150%;
     height: 25px;
-
-    
 }
 
 #btn-submit-form {
@@ -158,13 +161,10 @@ input {
     background-color: #d22a7c;
     font-size: 130%;
 
-
     padding: 0.5em 1em;
     border: none;
     cursor: pointer;
 }
-
-
 
 @media (max-width: 680px) {
     #container-img {
@@ -176,4 +176,3 @@ input {
         padding-left: 10%;
     }
 }
-
