@@ -142,11 +142,24 @@ li a {
     font-size: 120%;
 }
 
+/*Estilos para la caja de texto*/
 input {
     margin-bottom: 2%;
     margin-left: 5%;
     width: 150%;
     height: 25px;
+}
+
+input[type="text"] {
+    color: black;
+    border: 3px solid #d22a7c;
+    border-radius: 10px;
+}
+
+input[type="password"] {
+    color: black;
+    border: 3px solid #d22a7c;
+    border-radius: 10px;
 }
 
 #btn-submit-form {
